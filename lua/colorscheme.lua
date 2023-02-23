@@ -6,10 +6,25 @@
 -- end
 
 
-require('onedark').setup {
-	style = 'dark',
-	transparent = true,
-	term_colors = false,
-}
-require('onedark').load()
+--- require('onedark').setup {
+--- 	style = 'deep',
+--- 	transparent = true,
+--- 	term_colors = false,
+--- }
+--- require('onedark').load()
 
+--Put this lines inside your vimrc to set the colorscheme
+require("nebulous").setup {
+  variant = "midnight",
+  disable = {
+    background = true,
+    endOfBuffer = false,
+    terminal_colors = false,
+  },
+  italic = {
+    comments   = false,
+    keywords   = true,
+    functions  = false,
+    variables  = true,
+  },
+}

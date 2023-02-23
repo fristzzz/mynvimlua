@@ -22,15 +22,15 @@ vim.o.shiftwidth = 4
 vim.bo.shiftwidth = 4
 
 --空格代替tab
---vim.o.expandtab = true
---vim.bo.expandtab = true
+vim.o.expandtab = true
+vim.bo.expandtab = true
 
-vim.o.autoindent = true
-vim.bo.autoindent = true
-vim.o.smartindent = true
+-- vim.o.autoindent = true
+-- vim.bo.autoindent = true
+-- vim.o.smartindent = true
 
 vim.o.ignorecase = true
-vim.o.smartcase = true
+-- vim.o.smartcase = true
 
 vim.o.hlsearch = true
 vim.o.incsearch = true
@@ -42,7 +42,7 @@ vim.o.autoread = true
 vim.bo.autoread = true
 
 -- 禁止折行
-vim.wo.wrap = false
+-- vim.wo.wrap = false
 
 vim.o.hidden = true
 

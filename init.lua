@@ -9,7 +9,8 @@ require("plugin-config.lualine")
 require("plugin-config.nvim-treesitter")
 
 require("lsp.setup")
-
 require("lsp.cmp")
+require("lsp.formatter")
+
 require("plugin-config.indent-blankline")
 require("plugin-config.autopairs")

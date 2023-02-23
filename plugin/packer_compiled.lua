@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\zzzzo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\zzzzo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\zzzzo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -128,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\zzzzo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nebulous.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\zzzzo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nebulous.nvim",
+    url = "https://github.com/Yagua/nebulous.nvim"
   },
   ["nvim-autopairs"] = {
     config = { "\27LJ\2\n@\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },

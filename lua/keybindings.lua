@@ -5,6 +5,8 @@ local map = vim.api.nvim_set_keymap
 local opt = { noremap = true, silent = true }
 
 map("n", "<leader>h", ":noh<CR>", opt)
+map("n", "<leader>w", ":w<CR>", opt)
+map("n", "<leader>q", ":q<CR>", opt)
 -- cancel default function of 's'
 map("n", "s", "", opt)
 
@@ -32,7 +34,7 @@ map("n", "<C-k>", "4k", opt)
 
 local pluginKeys = {}
 -- nvim-tree
-map("n", "file", ":NvimTreeToggle<CR>", opt)
+map("n", "<leader>f", ":NvimTreeToggle<CR>", opt)
 pluginKeys.nvimTreeList = {
 	{ key = ".", action = "toggle_dotfiles" },
 	{ key = "a", action = "create" },
@@ -56,7 +58,7 @@ pluginKeys.mapLSP = function(mapbuf)
 	mapbuf("n", "<leader>e", "<cmd>lua vim.diagnostic.open_float()<CR>", opt)
 	mapbuf("n", "[g", "<cmd>lua vim.diagnostic.goto_prev()<CR>", opt)
 	mapbuf("n", "]g", "<cmd>lua vim.diagnostic.goto_next()<CR>", opt)
-	mapbuf("n", "<leader>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opt)
+	mapbuf("n", "<leader>F", "<cmd>lua vim.lsp.buf.formatting()<CR>", opt)
 end
 pluginKeys.mapLSP(vim.keymap.set)
 

@@ -6,7 +6,7 @@ end
 
 lualine.setup({
 	options = {
-		theme = 'onedark',
+		theme = 'auto',
 		icons_enabled = true
 	}
 })

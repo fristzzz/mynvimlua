@@ -33,6 +33,7 @@ packer.startup(
 
 		use "onsails/lspkind-nvim"
 		use "lukas-reineke/indent-blankline.nvim"
+        use "HiPhish/nvim-ts-rainbow2"
 
 		use {
 			"windwp/nvim-autopairs",

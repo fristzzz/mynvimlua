@@ -1,8 +1,5 @@
--- Provides the Format, FormatWrite, FormatLock, and FormatWriteLock commands
 require("formatter").setup {
   filetype = {
-    -- Formatter configurations for filetype "lua" go here
-    -- and will be executed in order
 	rust = {
 		function()
 			return {
@@ -11,7 +8,6 @@ require("formatter").setup {
 			}
 		end,
 	}
-    
   }
 }
 

@@ -28,6 +28,8 @@ require 'lspconfig'.lua_ls.setup{}
 require 'lspconfig'.tsserver.setup{}
 require 'lspconfig'.jsonls.setup{}
 require 'lspconfig'.bashls.setup{}
+require 'lspconfig'.pylsp.setup{}
+require 'lspconfig'.r_language_server.setup{}
 
 -- for name, _ in pairs(servers) do
 -- 	local server_is_found, server = lsp_installer.get_server(name)
